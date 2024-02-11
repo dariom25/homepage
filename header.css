@@ -52,6 +52,10 @@ header::before{
     padding: 1rem;
 }
 
+.about-me-title{
+    font-size: 2rem;
+}
+
 .about-me-content{
     padding: 0;
     margin: 1.5rem 0rem;
@@ -61,5 +65,5 @@ header::before{
     font-size: 2rem;
     display: flex;
     justify-content: end;
-    gap: 1rem;
+    gap: 1.5rem;
 }
