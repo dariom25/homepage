@@ -7,6 +7,10 @@
     --dark-green: #04724D;
     --dark-red: #A5243D;
     --skew-angle: -10deg;
+    --shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    color: var(--font-color);
+    box-sizing: border-box;
 }
 
 body{
