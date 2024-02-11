@@ -1,27 +1,59 @@
-.main-content{
-    margin: 0rem 16%;
+.main-content {
+  margin: 1rem 16%;
 }
 
-.title{
-    grid-area: 1/1/1/4;
+.title {
+  grid-area: 1/1/1/4;
+  font-size: 2rem;
 }
 
-.project-card-wrapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); /*ich muss nochmal gucken, dass ich das mit den bilder fixe, dass die sich automatisch der containergröße anpassen und nicht eskalieren*/
-    gap: 3rem
+.project-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(18rem, 1fr)
+  ); /*ich muss nochmal gucken, dass ich das mit den bilder fixe, dass die sich automatisch der containergröße anpassen und nicht eskalieren*/
+  gap: 3rem;
 }
 
-.project-card{
-    max-width: 15rem;
+.project-card {
+  box-shadow: var(
+    --shadow
+  ); /*custom box shadow from here: https://getcssscan.com/css-box-shadow-examples*/
 }
 
-.project-picture{
-    max-width: 15rem;
+.project-title {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-title>h3{
+    margin: 0rem;
+}
+
+.project-icons>.devicon-github-original-wordmark.colored{
+    font-size: 1.5rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+}
+
+.project-picture {
+  width: 100%;
+    object-fit: fill;
+}
+
+.project-text {
+  padding: 1rem 1rem;
 
 }
 
-.project-text{
-    padding: 0rem 1rem;
-    box-shadow: var(--shadow) /*custom box shadow from here: https://getcssscan.com/css-box-shadow-examples*/
+.project-description{
+    margin: 0.5rem 0rem 0rem  0rem;
 }
