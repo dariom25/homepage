@@ -1,0 +1,14 @@
+:root{
+    background-color: var(--main-background-color);
+    --main-background-color: #FEF9FF;
+    --darker-main-bg: #dddddd;
+    --accentuated-bg: #2f26d1;
+    --font-color: #252627;
+    --dark-green: #04724D;
+    --dark-red: #A5243D;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
