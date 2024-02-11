@@ -15,22 +15,51 @@ header::before{
     background-color: var(--accentuated-bg);
     transform: skewY(var(--skew-angle));
     transform-origin: top left;
+    box-shadow: var(--shadow);
 }
 
 .header-content{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0% 16%;
     padding: 3rem 0rem;
+}
 
+.picture-wrapper{
+    position: relative;
 }
 
 .header-picture{
-    max-width: 25rem;
+    max-width: 35rem;
+    box-shadow: var(--shadow);
+}
+
+.name{
+    color: var(--darker-main-bg);
+    margin: 0px;
+    position: absolute;
+    z-index: 2;
+    left: 35%;
+    bottom: 1%;
+    text-shadow: var(--shadow);
+
 }
 
 .about-me{
-    max-width: 35rem;
     background-color: var(--darker-main-bg);
+    box-shadow: var(--shadow);
+    padding: 1rem;
+}
+
+.about-me-content{
+    padding: 0;
+    margin: 1.5rem 0rem;
+}
+
+.icons{
+    font-size: 2rem;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
 }
