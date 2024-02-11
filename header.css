@@ -1,3 +1,19 @@
+header{
+    background-color: var(--accentuated-bg);
+}
+
 .header-content{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0rem;
+}
+
+.header-picture{
+    max-width: 25rem;
+}
+
+.about-me{
+    max-width: 35rem;
+    background-color: var(--darker-main-bg);
 }
