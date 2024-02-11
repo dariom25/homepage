@@ -1,0 +1,28 @@
+.main-content{
+    margin: 0rem 16%;
+}
+
+.title{
+    grid-area: 1/1/1/4;
+}
+
+.project-card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    justify-items: center;
+    gap: 3rem
+}
+
+.project-card{
+    max-width: 15rem;
+}
+
+.project-picture{
+    max-width: 15rem;
+
+}
+
+.project-text{
+    padding: 0rem 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; /*custom box shadow from here: https://getcssscan.com/css-box-shadow-examples*/
+}
