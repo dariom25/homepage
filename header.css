@@ -84,7 +84,9 @@ header::before{
         z-index: 1;
     }
 
-    .header-picture{
+    .name{
+        left: 80%;
+        bottom: 85%;
     }
 
     .about-me{
@@ -102,17 +104,15 @@ header::before{
 
     .about-me-content{
         padding: 0rem 2rem 2rem 2rem ;
-
     }
 
     .shadow-box{
         box-shadow: var(--shadow);
         background-color: var(--main-background-color);
-
     }
     
     .spacer{
-        height: 2rem;
+        height: 4rem;
     }
 
     .icons{
