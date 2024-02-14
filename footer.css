@@ -1,12 +1,26 @@
 footer{
     background-color: var(--accentuated-bg);
+    padding: 3rem 0rem;
+    color: var(--main-background-color);
 }
 
 .footer-content{
     margin: 0rem 16%;
     display: flex;
+    gap: 3rem;
+    justify-content: space-between;
 }
 
-.picture-container>img{
-    max-width: 70%;
+.footer-content>img{
+    max-width: 35rem;
+}
+
+.contact-icons{
+    font-size: 2rem;
+}
+
+.telephone-information, .mail-information{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
