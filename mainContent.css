@@ -3,37 +3,40 @@
 }
 
 .title {
-  grid-area: 1/1/1/4;
   font-size: 2rem;
+  text-align: center;
 }
 
 .project-card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(18rem, 1fr)
-  ); /*ich muss nochmal gucken, dass ich das mit den bilder fixe, dass die sich automatisch der containergröße anpassen und nicht eskalieren*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
+
+
 }
 
 .project-card {
   box-shadow: var(
     --shadow
   ); /*custom box shadow from here: https://getcssscan.com/css-box-shadow-examples*/
+  max-width: 18rem;
 }
+
 
 .project-title {
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.project-title>h3{
-    margin: 0rem;
+.project-title > h3 {
+  margin: 0rem;
 }
 
-.project-icons>.devicon-github-original-wordmark.colored{
-    font-size: 1.5rem;
+.project-icons > .devicon-github-original-wordmark.colored {
+  font-size: 1.5rem;
 }
 
 .material-symbols-outlined {
@@ -46,14 +49,12 @@
 
 .project-picture {
   width: 100%;
-    object-fit: fill;
 }
 
 .project-text {
   padding: 1rem 1rem;
-
 }
 
-.project-description{
-    margin: 0.5rem 0rem 0rem  0rem;
+.project-description {
+  margin: 0.5rem 0rem 0rem 0rem;
 }
