@@ -11,8 +11,15 @@ footer{
     justify-content: space-between;
 }
 
+.contact-me-wrapper{
+    width: 40%;
+    min-width: 450px;
+}
+
 .footer-content>img{
     max-width: 35rem;
+    width: 100%;
+    object-fit: contain;
 }
 
 .contact-icons{
@@ -23,4 +30,25 @@ footer{
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+@media (max-width: 1100px) {
+    
+    .footer-content{
+        margin: 0rem 16%;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        justify-content: space-between;
+    }
+    
+    .footer-content>img{
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .contact-me-wrapper{
+        width: 100%;
+        min-width: auto;
+    }
 }
