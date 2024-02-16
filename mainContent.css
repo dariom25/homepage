@@ -13,8 +13,6 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
-
-
 }
 
 .project-card {
@@ -23,7 +21,6 @@
   ); /*custom box shadow from here: https://getcssscan.com/css-box-shadow-examples*/
   max-width: 18rem;
 }
-
 
 .project-title {
   display: flex;
